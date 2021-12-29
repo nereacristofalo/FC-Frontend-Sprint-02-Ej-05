@@ -1,0 +1,9 @@
+.student-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 16px;
+}

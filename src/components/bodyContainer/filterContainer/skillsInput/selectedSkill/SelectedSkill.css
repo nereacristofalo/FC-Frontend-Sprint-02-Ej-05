@@ -1,0 +1,21 @@
+.selected-skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 6px 5px 10px;
+  background: #e6e6ea;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #121625;
+  margin-right: 6px;
+  margin-bottom: 7px;
+}
+
+.cross-icon {
+  margin-left: 9px;
+  width: 12px;
+  height: 12px;
+}

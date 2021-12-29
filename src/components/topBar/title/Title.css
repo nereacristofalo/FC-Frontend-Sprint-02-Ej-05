@@ -1,0 +1,21 @@
+.title-container {
+  display: flex;
+  margin: 0;
+}
+
+.title-ob,
+.title-students {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.title-ob {
+  color: #121625;
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+.title-students {
+  color: #32d4a4;
+  font-weight: 800;
+}

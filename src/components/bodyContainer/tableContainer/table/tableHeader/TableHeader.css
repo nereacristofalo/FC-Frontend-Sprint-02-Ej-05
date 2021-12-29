@@ -1,0 +1,22 @@
+th {
+  border-bottom: 1px solid #e6e6ea;
+  padding: 13.5px 24px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #a5a8b3;
+  cursor: pointer;
+}
+
+.th-content {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.order-icon {
+  margin-left: 13px;
+  width: 14px;
+  height: 14px;
+}

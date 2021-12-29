@@ -1,0 +1,53 @@
+.select-container {
+  position: relative;
+  bottom: 20px;
+  right: 167px;
+}
+
+.user-select,
+.user-profile,
+.chevron {
+  position: absolute;
+}
+
+.user-profile {
+  background: #121625;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #515561;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 130.9%;
+  letter-spacing: 0.02em;
+}
+
+.user-select {
+  background: #ffffff;
+  border-radius: 91px;
+  padding: 9px 40px 9px 55px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  color: #121625;
+  border: none;
+  outline: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+
+.chevron {
+  left: 143px;
+  bottom: -22px;
+  width: 6px;
+  height: 6px;
+  border-left: 2px solid #a5a8b3;
+  border-bottom: 2px solid #a5a8b3;
+  transform: rotate(-45deg);
+  transition: all 0.25s ease;
+}

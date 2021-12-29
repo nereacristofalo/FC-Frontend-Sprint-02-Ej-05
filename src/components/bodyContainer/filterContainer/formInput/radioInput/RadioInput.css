@@ -1,0 +1,49 @@
+.filter-option {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #121625;
+  flex-grow: 1;
+  margin: 0px 10px;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 1em;
+}
+
+.filter-option:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+input[type='radio'] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  width: 14px;
+  height: 14px;
+  border: 0.15em solid #a5a8b3;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type='radio']:checked {
+  border: 0.15em solid #32d4a4;
+}
+
+input[type='radio']::before {
+  content: '';
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #32d4a4;
+  background-color: CanvasText;
+  transform-origin: bottom left;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type='radio']:checked::before {
+  transform: scale(1);
+}

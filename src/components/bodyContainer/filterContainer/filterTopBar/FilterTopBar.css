@@ -1,0 +1,20 @@
+.filter-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.filter-section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #121625;
+  margin: 0;
+}
+
+.trash-icon {
+  width: 16px;
+  height: 16px;
+}
